@@ -13,6 +13,8 @@
         <module>plat-taotao-manager</module>
         <module>plat-taotao-rest</module>
         <module>plat-taotao-portal</module>
+        <module>plat-taotao-sso</module>
+
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>
