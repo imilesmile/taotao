@@ -15,7 +15,7 @@ import java.util.List;
  */
 
 @Controller
-public class itemCatController {
+public class ItemCatController {
 
     @Autowired
     private ItemCat itemCat;

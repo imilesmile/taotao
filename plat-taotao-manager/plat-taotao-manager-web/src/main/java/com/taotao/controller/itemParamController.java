@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/item/param")
-public class itemParamController {
+public class ItemParamController {
 
     @Autowired
     private ItemParamService itemParamService;

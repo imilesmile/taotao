@@ -17,6 +17,13 @@
         <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/order/**"/>
+            <bean class="com.taotao.portal.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 
     <!--静态资源映射 -->
     <mvc:resources mapping="/js/**" location="/js/"/>
