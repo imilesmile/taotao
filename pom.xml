@@ -14,7 +14,7 @@
         <module>plat-taotao-rest</module>
         <module>plat-taotao-portal</module>
         <module>plat-taotao-sso</module>
-
+        <module>plat-taotao-order</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>
